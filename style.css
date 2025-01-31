@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+main{
+    padding: 0px 50px;
+}
+
+
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+
+.description, .cv {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project {
+    background-color: white;
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skills {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+
+}
+
+footer a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
