@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const modalId = button.getAttribute('data-modal');
             const modal = document.getElementById(modalId);
             if (modal) {
-                modal.style.display = 'block';
+                modal.style.display = 'flex';
             }
         });
     });
