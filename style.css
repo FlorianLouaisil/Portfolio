@@ -437,9 +437,7 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    .modal{
-        display: block;
-    }
+
     .modal-content {
         width: 90%;
     }
