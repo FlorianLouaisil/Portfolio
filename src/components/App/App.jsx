@@ -22,7 +22,8 @@ function App() {
               Passionné par la création et toujours curieux d'apprendre, je me consacre à la réalisation de
               projets qui allient innovation et fonctionnalité. Mon objectif est de progresser constamment et de
               contribuer à des solutions numériques impactantes.</p>
-            <a href="data/CV_Florian_Louaisil.pdf" className="download-button">Télécharger mon CV</a>
+            <a href="/CV_Florian_Louaisil.pdf" className="download-button">Télécharger mon CV</a>
+
           </div>
         </section>
 
