@@ -5,7 +5,7 @@ import Skills from '../Skills/Skills.jsx'
 function App() {
 
   return (
-    <main>
+    <>
       <header>
         <h1>Florian Louaisil</h1>
         <nav>
@@ -26,8 +26,10 @@ function App() {
         </div>
       </section>
 
-      <Project />
-      <Skills />
+      <main>
+        <Project />
+        <Skills />
+      </main>
 
       <section id="contact">
         <h2>Contact</h2>
@@ -43,7 +45,7 @@ function App() {
         <a href="https://github.com/FlorianLouaisil" target="_blank">GitHub</a>
       </footer>
 
-    </main >
+    </>
   )
 }
 
